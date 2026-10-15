@@ -1,0 +1,26 @@
+{
+  "name": "opencode-go-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight Windows desktop floating widget for OpenCode Go quota (5-hour / weekly / monthly), driven by a native OpenCode plugin.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./plugin.js",
+  "exports": {
+    ".": "./plugin.js",
+    "./server": "./plugin.js"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-go",
+    "quota",
+    "desktop-widget",
+    "floating-widget",
+    "windows",
+    "csharp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eittyneo/opencode-go-widget.git"
+  }
+}

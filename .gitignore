@@ -1,0 +1,10 @@
+# Build output
+OpenCodeQuotaWidget.exe
+*.pdb
+
+# Runtime state (machine-specific, created while the widget runs)
+quota-live.json
+widget-settings.json
+
+# Node
+node_modules/
